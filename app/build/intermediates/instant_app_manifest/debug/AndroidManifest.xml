@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pbm.projects.TickeTrip"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="pbm.projects.TickeTrip.activity.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pbm.projects.TickeTrip.activity.LoginActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="pbm.projects.TickeTrip.activity.RegisterActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="pbm.projects.TickeTrip.activity.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pbm.projects.TickeTrip.activity.HistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pbm.projects.TickeTrip.activity.BookKeretaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pbm.projects.TickeTrip.activity.BookHotelActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pbm.projects.TickeTrip.activity.FindHotelActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pbm.projects.TickeTrip.activity.RoomActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
