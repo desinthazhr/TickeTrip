@@ -1208,7 +1208,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fasilitas
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1217,7 +1216,6 @@ id fixed
 id flMain
 id forever
 id gambar_hotel
-id gambar_kamar
 id ghost_view
 id gone
 id group_divider
@@ -1239,11 +1237,9 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
-id jenis_kamar
 id kamar
 id kamar_dlx
 id kamar_std
-id kapasitas
 id ke_daftar
 id ke_login
 id labeled
@@ -1289,7 +1285,6 @@ id parentPanel
 id parent_matrix
 id password
 id percent
-id pesan
 id pesandlx
 id pesanstd
 id pin
@@ -1486,7 +1481,6 @@ layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout list_item_booking
 layout list_item_hotel
-layout list_item_kamar
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action

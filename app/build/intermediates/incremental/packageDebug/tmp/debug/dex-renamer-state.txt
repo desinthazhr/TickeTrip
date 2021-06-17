@@ -1,4 +1,4 @@
-#Thu Jun 17 00:14:03 ICT 2021
+#Thu Jun 17 10:10:57 ICT 2021
 base.0=D\:\\Kuliah\\Semester_6\\PBM\\tugas\\KLP\\TickeTrip-master\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
