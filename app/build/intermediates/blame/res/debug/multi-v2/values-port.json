@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Kuliah\\Semester_6\\PBM\\tugas\\KLP\\TickeTrip-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "D:\\DATA-DATA\\KULIAH\\semester 6\\PBM\\FINAL\\TickeTrip\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Toshiba\\.gradle\\caches\\transforms-2\\files-2.1\\dc1b1298ed651ed2015da6fcf519fde1\\appcompat-1.1.0\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\dc1b1298ed651ed2015da6fcf519fde1\\appcompat-1.1.0\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
