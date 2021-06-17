@@ -61,7 +61,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/txtName"
-                        android:text="Desintha"
+                        android:text="User"
                         android:textSize="16sp" />
 
                     <TextView
@@ -79,7 +79,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/txtEmail"
-                        android:text="desintha@gmail.com"
+                        android:text="user@gmail.com"
                         android:textSize="16sp" />
 
                 </RelativeLayout>

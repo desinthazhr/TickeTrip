@@ -69,9 +69,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical"
-                        android:text="Lokasi atau Nama Hotel"
+                        android:text="Lokasi"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                        android:textColor="@color/black" />
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
                     <Spinner
                         android:id="@+id/lokasi"
                         android:layout_width="match_parent"
@@ -83,7 +84,8 @@
                         android:gravity="center_vertical"
                         android:text="Check-In"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                        android:textColor="@color/black" />
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
 
                     <EditText
                         android:id="@+id/tanggal_checkin"
@@ -103,7 +105,8 @@
                         android:gravity="center_vertical"
                         android:text="Check-Out"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                        android:textColor="@color/black" />
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
 
                     <EditText
                         android:id="@+id/tanggal_checkout"
@@ -154,7 +157,8 @@
                         android:layout_height="wrap_content"
                         android:text="Dewasa"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                        android:textColor="@color/black" />
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
 
                     <Spinner
                         android:id="@+id/dewasa"
@@ -167,7 +171,8 @@
                         android:layout_marginTop="8dp"
                         android:text="Anak-anak"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                        android:textColor="@color/black" />
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
 
                     <Spinner
                         android:id="@+id/anak"
@@ -181,7 +186,8 @@
                         android:layout_marginTop="8dp"
                         android:text="Kamar"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                        android:textColor="@color/black" />
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
 
                     <Spinner
                         android:id="@+id/kamar"
