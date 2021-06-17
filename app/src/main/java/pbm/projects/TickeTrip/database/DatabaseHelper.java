@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
 
-    public static final String DATABASE_NAME = "db_travel";
+    public static final String DATABASE_NAME = "db_ticketrip";
     public static final String TABLE_USER = "tb_user";
     public static final String COL_USERNAME = "username";
     public static final String COL_PASSWORD = "password";
@@ -126,16 +126,16 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public void insertHotel(SQLiteDatabase db) {
 
         insertData(db,"The Sultan Hotel","Jakarta","1500000","Jl. Jend. Gatot Subroto", "hotel1");
-        insertData(db,"Batavia Hotel","Jakarta","1750000","Jl. Kalibesar Barat No. 44 – 46", "hotel1");
-        insertData(db,"Le Grandeur","Jakarta","2000000","Jl. Mangga Dua Raya", "hotel1");
+        insertData(db,"Batavia Hotel","Jakarta","1750000","Jl. Kalibesar Barat No. 44 – 46", "hotel2");
+        insertData(db,"Le Grandeur","Jakarta","2000000","Jl. Mangga Dua Raya", "hotel3");
 
         insertData(db,"The Trans Luxury Hotel","Bandung","850000","Jalan Gatot Subroto 289", "hotel1");
-        insertData(db,"GH Universal Hotel","Bandung","1800000","Jalan Setiabudi 376, Setiabudi, Bandung", "hotel1");
-        insertData(db,"Hyatt Regency Bandung","Bandung","1500000","Jalan Sumatera Nomor 51", "hotel1");
+        insertData(db,"GH Universal Hotel","Bandung","1800000","Jalan Setiabudi 376, Setiabudi, Bandung", "hotel2");
+        insertData(db,"Hyatt Regency Bandung","Bandung","1500000","Jalan Sumatera Nomor 51", "hotel3");
 
         insertData(db,"Aston Denpasar","Bali","1500000","Denpasar", "hotel1");
-        insertData(db,"Bali Mulia Villas","Bali","700000","kuta", "hotel1");
-        insertData(db,"Villa De Daun","Bali","1800000","kuta", "hotel1");
+        insertData(db,"Bali Mulia Villas","Bali","700000","kuta", "hotel2");
+        insertData(db,"Villa De Daun","Bali","1800000","kuta", "hotel3");
 
         insertData(db,"Hotel Hermes","Banda Aceh","850000","Jl. T. Panglima Nyak Makam, Lambhuk, Kec. Ulee Kareng, Kota Banda Aceh", "hotel3");
         insertData(db,"Hotel Kyriad Muraya","Banda Aceh","1200000","Jl. Teuku Moh. Daud Beureueh No.5, Laksana, Kec. Kuta Alam, Kota Banda Aceh", "hotel2");

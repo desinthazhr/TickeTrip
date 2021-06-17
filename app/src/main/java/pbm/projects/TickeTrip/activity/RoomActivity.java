@@ -66,7 +66,7 @@ public class RoomActivity extends AppCompatActivity {
             sHarga = cursor.getString(3);
 
             String imageName = cursor.getString(4);
-            int resID = getResources().getIdentifier(imageName, "drawable", "package.name");
+            int resID = getResources().getIdentifier(imageName, "drawable", "pbm.projects.TickeTrip");
 
             image = resID;
         }

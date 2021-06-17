@@ -66,7 +66,7 @@ public class FindHotelActivity extends AppCompatActivity {
             harga = cursor.getString(3);
 
             String imageName = cursor.getString(4);
-            int resID = getResources().getIdentifier(imageName, "drawable", "package.name");
+            int resID = getResources().getIdentifier(imageName, "drawable", "pbm.projects.TickeTrip");
             gambar = resID;
 
             hasil.add(new HotelModel(id_book, nama, lokasi, harga, gambar));
